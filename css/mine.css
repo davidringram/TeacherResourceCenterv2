@@ -1,0 +1,194 @@
+.sub-nav {
+  background-color: #f2f2f2;
+  padding: 0.5rem 0.5rem 0.5rem 0; }
+  .sub-nav li {
+    color: #999999;
+    font-size: 0.77778rem;
+    padding-left: 0.88889rem; }
+    .sub-nav li.active a {
+      border-radius: 3px;
+      background: #008CBA;
+      color: #fff;
+      cursor: default;
+      font-weight: normal;
+      padding: 0.16667rem 0.88889rem; }
+
+
+#myframe {
+    margin-top: 5vh;
+    width: 52.5vw;
+    height: 51vh;
+    border:none
+}
+
+#articlebottom {
+    margin-top: -16px;
+}
+
+#doclinks {
+    margin-left: 3em;
+    font-size: .9em;
+}
+
+#bigsmall {
+    font-size: 2.5em;
+}
+
+#asidetext {
+    font-size: 1.7em;
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 78px;
+
+}
+
+#smallspace {
+margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#asidevideo {
+     width: 80px;
+    height: 80px;
+}
+
+#medtiptext {
+ text-align: center;
+}
+
+#featuredvideo {
+        display: block;
+    margin: 0 auto;
+}
+
+#docthumb {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#tipwords {
+ color: #BA2428;   
+}
+
+#colorrow {
+ background-color: #284b97;
+     color: white;
+    text-align: center;
+}
+
+#menutext {
+    color: whitesmoke;
+}
+
+#menufloat {
+    float: right;
+}
+
+#docfloat {
+    float: left;
+}
+
+h1, h2, h3, h4, h5 {
+ font-family: 'Dosis', sans-serif;
+}
+
+p {
+ font-family: 'Lato', sans-serif;   
+}
+
+#mainHeader {
+    background: url('')
+}
+
+#footerlinks {
+    color: white;
+}
+
+#mainartbutton {
+    font-size: 1.3em;
+}
+
+#artbutton {
+    font-size: .9em;
+}
+
+.hero {
+  background: url("images/headeroverlay.jpg") no-repeat center center;
+  background-size: cover;
+  height: 25vh; }
+  .hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+height: 25vh;}
+  .hero .intro {
+    padding: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  .hero h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+    text-align: center; }
+  .hero p {
+    color: #fff;
+    line-height: 1.75em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 2rem; }
+  .hero .tech-img {
+    background: url("images/aeriesa.png") no-repeat center center;
+    background-size: cover;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 0%;
+    display: block;
+    margin: 0 auto; } 
+  @media only screen and (min-width: 40.063em) {
+    .hero .tech-img {
+      height: 8rem;
+      width: 8rem; } 
+    .hero h1 {
+      padding-top: .5rem;
+      text-align: center;
+      font-size: 4.5rem; }
+    .hero p {
+      text-align: center;
+      font-size: 2.5rem;} 
+      
+.footer {
+  background-color: #284b97;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem; }
+  .footer p.slogan {
+    color: #bbb;
+    font-size: 1.8rem;
+    margin: 0 0 1rem; }
+  .footer p.copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 0; }
+  .footer .links a {
+    list-style: none;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 3rem 0 2rem;
+    margin: 0; }
+    .footer .links a::after {
+      content: "•";
+      padding: 0 0.4rem 0 0.8rem; }
+    .footer .links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
+      
+      
